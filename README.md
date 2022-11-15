@@ -1,6 +1,6 @@
 # W4 Project - Building mySQL Data-base  II
 
-¿ REALMENTE LA LUNA AFECTA NUESTRO COMPORTAMIENTO CRIMINAL?¿HAY MAS CRIMENES LAS NOCHES DE LUNA LLENA?
+¿ REALMENTE LA LUNA AFECTA NUESTRO COMPORTAMIENTO CRIMINAL? ¿HAY MAS CRIMENES LAS NOCHES DE LUNA LLENA?
 
 ![pp](https://github.com/pablogalann/4.5-Proyecto-ETL/blob/main/img/lobo.jpg)
 
@@ -66,7 +66,7 @@ Relacionando los ciclos de la luna, conociendo su inicio y su final, podemos enm
 
 Relacionandola así, de manera de directa con la tabla principal de crimenes 
 
-![lo](http://localhost:8888/view/4.5-Proyecto-ETL/img/id_crimes.PNG).
+![lo](https://github.com/pablogalann/4.5-Proyecto-ETL/blob/main/img/id_crimes.PNG).
 
 
 ## Exportación de los datos a mySQL y creacion de la base de datos 'crimenes baltimore'
@@ -77,7 +77,7 @@ La exportación de los datos se hace directamente desde python, utilizando el mo
 
 Una vez introducidos los dataframe con sus datos limpios, se procede a vincular las tablas entre ellas, mediante el id_ciclo_lunar,para facilitar una unión fiable entre ellas, como se ve a continuación 
 
-![pre](http://localhost:8888/view/4.5-Proyecto-ETL/img/eer.PNG).
+![p](https://github.com/pablogalann/4.5-Proyecto-ETL/blob/main/img/eer.PNG).
 
 
 
@@ -90,24 +90,24 @@ Consultas realizadas, una vez establecida la base de datos.
 Analicemos un ciclo lunar:
 
 - Crimenes en noche de luna llena
-![pre](http://localhost:8888/view/4.5-Proyecto-ETL/img/luna_llena_verano.PNG).
+![pre](https://github.com/pablogalann/4.5-Proyecto-ETL/blob/main/img/luna_llena_verano.PNG).
 - Crimenes en noche de luna nueva
-![pre](http://localhost:8888/view/4.5-Proyecto-ETL/img/luna_nueva_verano.PNG).
+![pre](https://github.com/pablogalann/4.5-Proyecto-ETL/blob/main/img/luna_nueva_verano.PNG).
 - Crimenes en noche de cuarto creciente
-![pre](http://localhost:8888/view/4.5-Proyecto-ETL/img/cuarto_creciente_verano.PNG).
+![pre](https://github.com/pablogalann/4.5-Proyecto-ETL/blob/main/img/cuarto_creciente_verano.PNG).
 - Crimenes en noche de cuarto menguante
-![pre](http://localhost:8888/view/4.5-Proyecto-ETL/img/cuarto_menguante_verano.PNG).
+![pre](https://github.com/pablogalann/4.5-Proyecto-ETL/blob/main/img/cuarto_menguante_verano.PNG).
 
 Analicemos el total de homicidios en el periodo de seis años:
 
 - Homicidios en noche de luna llena
-![pre](http://localhost:8888/view/4.5-Proyecto-ETL/img/conteo%20homicidios%20full_moon.PNG).
+![pre](https://github.com/pablogalann/4.5-Proyecto-ETL/blob/main/img/conteo%20homicidios%20full_moon.PNG).
 - Homicidios en noche de luna nueva
-![pre](http://localhost:8888/view/4.5-Proyecto-ETL/img/conteo%20homicidios%20new_moon.PNG).
+![pre](https://github.com/pablogalann/4.5-Proyecto-ETL/blob/main/img/conteo%20homicidios%20new_moon.PNG).
 - Homicidios en noche de cuarto creciente
-![pre](http://localhost:8888/view/4.5-Proyecto-ETL/img/conteo%20homicidios%20cuarto%20creciente.PNG).
+![pre](https://github.com/pablogalann/4.5-Proyecto-ETL/blob/main/img/conteo%20homicidios%20cuarto%20creciente.PNG).
 - Homicidios en noche de cuarto menguante
-![pre](http://localhost:8888/view/4.5-Proyecto-ETL/img/conteo%20homicidios%20cuarto%20menguante.PNG).
+![pre](https://github.com/pablogalann/4.5-Proyecto-ETL/blob/main/img/conteo%20homicidios%20cuarto%20menguante.PNG).
 
 
 
